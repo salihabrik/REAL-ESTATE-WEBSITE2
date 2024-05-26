@@ -88,7 +88,7 @@ const Contact = () => {
           {/*right side */} 
           <div className='flexColStart c-right'>
             <div className='image-container'>
-                <img src='./contact.jpg' alt=''/>
+                <img src='./contact4.jpg' alt=''/>
             </div>
         </div>     
 

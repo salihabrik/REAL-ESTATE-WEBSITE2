@@ -16,7 +16,7 @@ const Footer = () => {
 
             <div className='flexColStart f-right'>
                 <span className='primaryText'>Information</span>
-                <span className='secondaryText'>234 New Clifton Street , Algeria MILA</span>
+                <span className='secondaryText'>234 New Clifton Street , Algeria MILA created by SALIHA BRIK</span>
                 <div className='flexCenter f-menu'>
                     <span>Property</span>
                     <span>Services</span>

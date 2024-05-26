@@ -2,11 +2,11 @@
     color: white;
     position: relative;
     padding-bottom: 2rem;
-    background-color: var(--black)
+    z-index: 1;
 }
 
 .hero-container {
-     justify-content: space-between;
+     justify-content: space-around;
      align-items: flex-end;
 }
 /*foe left side*/
@@ -27,12 +27,8 @@
 .orange-circle {
     height: 4rem;
     width: 4rem;
-    background-color: var(--orange-gradient);
+    background: var(--orange-gradient);
     border-radius: 999px;
-    -webkit-border-radius: 999px;
-    -moz-border-radius: 999px;
-    -ms-border-radius: 999px;
-    -o-border-radius: 999px;
     position: absolute;
     right: 28%;
     top: -10%;
@@ -45,10 +41,6 @@
     border: 3px solid rgba(120, 120 , 120, 0.37);
     padding: 0.5rem  1rem;
     justify-content: space-between;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
     width: 100%;
 }
 
@@ -87,4 +79,34 @@
 .image-container>img {
     width: 100%;
     height: 100%;
+}
+
+@media  (max-width: 640px) {
+    .hero-container {
+        margin-top: 2rem;
+    }
+
+    .hero-title>h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .image-container {
+        width: 95%;
+        height: 25rem;
+    }
+
+    .stats {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+    stat>:nth-child(1) {
+        font-size: 1.5rem;
+    }
+    .stat>:nth-child(2) {
+        font-size: 0.8rem;
+    }
 }
